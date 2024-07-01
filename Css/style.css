@@ -1,0 +1,273 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: blue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header, .footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  background: #fff;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.user-profile {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.mid {
+  width: 750px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.meta {
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.meta h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.meta p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.navbar {
+  background: #007bff !important;
+}
+
+.navbar .navbar-brand, .navbar .nav-link, .navbar .btn {
+  color: #fff !important;
+}
+
+.navbar .btn-success {
+  background-color: #28a745 !important;
+  border: none;
+}
+
+.navbar .btn-light {
+  background-color: #f8f9fa !important;
+  border: none;
+  color: #007bff !important;
+}
+
+.navbar .form-control {
+  border-radius: 20px;
+}
+
+.navbar .btn-outline-success {
+  border-radius: 20px;
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.navbar .btn-outline-success:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+  background: #fff;
+}
+
+.card-hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-hover-content {
+  opacity: 1;
+}
+
+
+.calculator {
+  width: 100%;
+  height: 400px;
+  background-color: #007bff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.calculate-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.calculate-container img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.calculate-area {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calculate-area label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.calculate-area input {
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calculate-area button {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calculate-area button:hover {
+  background-color: #34e315;
+}
+
+.mobil-app{
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.mobil-app-text 
+{
+  width: 50%;
+}
